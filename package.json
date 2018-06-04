@@ -3,7 +3,10 @@
     "displayName": "Copy Path",
     "description": "Copy the relative path from the current file to the selected file",
     "version": "0.1.0",
-    "repository": "git@github.com:andaviaco/vscode-copy-path.git",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/andaviaco/vscode-copy-path"
+    },
     "publisher": "andaviaco",
     "engines": {
         "vscode": "^1.23.0"
